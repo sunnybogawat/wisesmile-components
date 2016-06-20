@@ -1,8 +1,9 @@
 {
   "name": "wisesmile-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Multiple react components",
   "main": "index.js",
+  "main": "dist/wisesmile-components",
   "scripts": {
     "test": "mocha test/.setup.js test/**/*-test.js"
   },
