@@ -10,10 +10,10 @@
 
 import React from 'react';
 
-const About = ({ name, version }) => (
+const About = ({}) => (
  <div className="about">
-   <h2 className="title">{name}</h2>
-   <h3>{version}</h3>
+   <h2 className="title">wisesmile-components</h2>
+   <h3>1.0</h3>
  </div>
 );
 

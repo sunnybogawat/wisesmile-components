@@ -91,32 +91,34 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); } /**
+	                                                                                                                   * About Component
+	                                                                                                                   *
+	                                                                                                                   * presentational component lightweight functions
+	                                                                                                                   * purpose: How things look (markup, styles)
+	                                                                                                                   * aware of flux: No
+	                                                                                                                   * Read data through props
+	                                                                                                                   * Inline style here provided only as an example of the possibilities
+	                                                                                                                   */
+
 	var About = function About(_ref) {
-	  var name = _ref.name;
-	  var version = _ref.version;
+	  _objectDestructuringEmpty(_ref);
+
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "about" },
 	    _react2.default.createElement(
 	      "h2",
 	      { className: "title" },
-	      name
+	      "wisesmile-components"
 	    ),
 	    _react2.default.createElement(
 	      "h3",
 	      null,
-	      version
+	      "1.0"
 	    )
 	  );
-	}; /**
-	    * About Component
-	    *
-	    * presentational component lightweight functions
-	    * purpose: How things look (markup, styles)
-	    * aware of flux: No
-	    * Read data through props
-	    * Inline style here provided only as an example of the possibilities
-	    */
+	};
 
 	About.propTypes = {
 	  name: _react2.default.PropTypes.string.isRequired,

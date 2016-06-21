@@ -21,6 +21,7 @@ module.exports = {
     libraryTarget: 'umd',
     externals: {
         react: 'react',
+        ReactDOM: 'ReactDOM'
     }
   },
 };
