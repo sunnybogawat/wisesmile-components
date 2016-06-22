@@ -61,18 +61,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.Alert = exports.Awesome = undefined;
 
-	var _Awesome2 = __webpack_require__(1);
+	var _awesome = __webpack_require__(1);
 
-	var _Awesome3 = _interopRequireDefault(_Awesome2);
+	var _awesome2 = _interopRequireDefault(_awesome);
 
-	var _Alert2 = __webpack_require__(39);
+	var _alert = __webpack_require__(39);
 
-	var _Alert3 = _interopRequireDefault(_Alert2);
+	var _alert2 = _interopRequireDefault(_alert);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	exports.Awesome = _Awesome3.default;
-	exports.Alert = _Alert3.default;
+	exports.Awesome = _awesome2.default;
+	exports.Alert = _alert2.default;
 
 /***/ },
 /* 1 */

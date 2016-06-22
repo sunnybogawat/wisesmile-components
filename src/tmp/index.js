@@ -1,2 +1,2 @@
-export Awesome from './Awesome';
-export Alert from './Alert';
+export Awesome from './awesome.js';
+export Alert from './alert.js';
