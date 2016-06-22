@@ -8,7 +8,7 @@ class Alert extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="alert">
           <span style={{'color': 'red'}}>{this.props.errorMsg}</span>
       </div>
     );
