@@ -1,7 +1,7 @@
 {
   "name": "wisesmile-components",
-  "version": "1.0.10",
-  "description": "Multiple react components",
+  "version": "1.0.11",
+  "description": "Assorted react components",
   "main": "./dist/wisesmile-components.js",
   "scripts": {
     "test": "mocha config/enzyme.js src/**/*.spec.js",
