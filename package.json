@@ -1,8 +1,8 @@
 {
   "name": "wisesmile-components",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "Assorted react components",
-  "main": "./dist/index.js",
+  "main": "./dist/wisesmile-components.js",
   "scripts": {
     "test": "mocha config/enzyme.js src/**/*.spec.js",
     "build": "webpack",
