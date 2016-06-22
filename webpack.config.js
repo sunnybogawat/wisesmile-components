@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    Awesome: "./src/Awesome"
+   'wisesmile-components': './src/index.js'
   },
   module: {
     loaders: [

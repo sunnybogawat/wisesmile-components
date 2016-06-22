@@ -4394,7 +4394,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'alert' },
 	        _react2.default.createElement(
 	          'span',
 	          { style: { 'color': 'red' } },
