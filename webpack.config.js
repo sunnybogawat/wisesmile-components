@@ -3,16 +3,11 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    About: "./src/About",
-    Awesome: "./src/Awesome"
+   'wisesmile-components': './src/index.js'
   },
   module: {
     loaders: [
-      {
-        test: /.jsx?$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      }
+      { test: /.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ }
     ]
   },
   output: {

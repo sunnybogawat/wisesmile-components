@@ -4,7 +4,8 @@
   "description": "Multiple react components",
   "main": "./dist/wisesmile-components.js",
   "scripts": {
-    "test": "mocha test/.setup.js test/**/*-test.js"
+    "test": "mocha config/enzyme.js src/**/*.spec.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "author": "paz",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-stage-0": "^6.5.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   },
