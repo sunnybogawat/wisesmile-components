@@ -1,6 +1,6 @@
 {
   "name": "wisesmile-components",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Assorted react components",
   "main": "./dist/wisesmile-components.js",
   "scripts": {
